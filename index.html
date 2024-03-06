@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <link rel="stylesheet" href="styles/dark.css" />
+        <title>Simple Homepage</title>
+    </head>
+    <body>
+        <div id="container" class="dark-mode">
+            <header id="navbar" class="pb-60 dark-mode">
+                <div id="logo">
+                    <img src="img/alarado-icon-homepage.svg" alt="logo" />
+                </div>
+                <div id="menu_icon"> === </div>
+                <div id="navbar_container_links">
+                    <div id="menu_close"> X </div>
+                    <ul class="list_container">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Resource</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div id="switch" class="switch">
+                        <span id="moon_light">
+                            <img src="img/Moon_fill_light.svg" alt="dark" />
+                        </span>
+                        <span id="moon_dark" class="hidden">
+                            <img src="img/Moon_fill.svg" alt="dark" />
+                        </span>
+                        <span id="sun" class="active">
+                            <img src="img/Sun_fill.svg" alt="light" />
+                        </span>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id="information">
+                    <div id="div_container_information" class="div_container">
+                        <h3 class="pb-40 dark-mode">😎 Simple way to communicate</h3>
+                        <h1 class="pb-50 dark-mode">Actions for Accessibility in Design</h1>
+                        <p class="pb-30 dark-mode">
+                            The fastest way to build and deploy websites with
+                            resusable components.
+                        </p>
+                        <ul id="links" class="list_container pb-30">
+                            <li id="button"><a href="#">GET STARTED</a></li>
+                            <li><a href="#">Get live demo</a></li>
+                        </ul>
+                        <ul id="additional_info" class="list_container pb-30">
+                            <li>
+                                <img
+                                    src="img/Done_ring_round_fill.svg"
+                                    alt="no credit" />
+                                <a href="#">No credit card required</a>
+                            </li>
+                            <li>
+                                <img
+                                    src="img/Done_ring_round_fill.svg"
+                                    alt="no software" />
+                                <a href="#">No software to install</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="div_container">
+                        <img
+                            id="hero"
+                            src="img/hero-image-simple-homepage.png"
+                            alt="hero" />
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="script/index.js"></script>
+    </body>
+</html>

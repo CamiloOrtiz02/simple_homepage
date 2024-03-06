@@ -1,0 +1,22 @@
+body.dark {
+    color: #f1f1f1;
+}
+body.dark h3 {
+    color: #f1f1f1;
+}
+body.dark p {
+    color: #909193;
+}
+body.dark div#container {
+    background-color: #111628;
+}
+body.dark header#navbar div#navbar_container_links.active {
+    background-color: #111628;
+}
+body.dark div#navbar_container_links.active ul {
+    background-color: #111628;
+}
+body.dark header#navbar ul a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
